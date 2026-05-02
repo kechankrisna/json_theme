@@ -4,7 +4,7 @@ homepage: "https://github.com/peiffer-innovations/json_theme"
 version: "3.0.0+6"
 
 environment:
-  sdk: "^3.11.0"
+  sdk: ">=3.9.2 <4.0.0"
 resolution: "workspace"
 
 analyzer:
