@@ -4,7 +4,7 @@ homepage: "https://github.com/peiffer-innovations/json_theme"
 version: "2.0.0+4"
 
 environment:
-  sdk: "^3.9.0"
+  sdk: "^3.11.0"
 resolution: "workspace"
 
 analyzer:
@@ -13,7 +13,7 @@ analyzer:
     - "lib/**/*.g.dart"
 
 dependencies:
-  meta: "^1.16.0"
+  meta: "^1.17.0"
 
 dev_dependencies:
   flutter_lints: "^6.0.0"

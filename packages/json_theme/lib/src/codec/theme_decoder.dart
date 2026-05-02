@@ -18,7 +18,7 @@ part 'theme_decoder.g.dart';
 part 'theme_decoder.schemas.dart';
 
 const _baseSchemaUrl =
-    'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme';
+    'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme';
 
 /// Decoder capable of converting JSON compatible values into Flutter Theme
 /// related classes and enums.

@@ -699,7 +699,7 @@ default:
     buf.write('''
 class ${clazz}Schema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/$snakeCase.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/$snakeCase.json';
 
   static final schema = {
     r'\$schema': 'http://json-schema.org/draft-07/schema#',
@@ -752,7 +752,7 @@ class ${clazz}Schema {
     buf.write('''
 class ${clazz}Schema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/$snakeCase.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/$snakeCase.json';
 
   static final schema = {
     r'\$schema': 'http://json-schema.org/draft-07/schema#',

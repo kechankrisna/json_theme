@@ -76,7 +76,7 @@ final _kCustomSchemas = {
 
 class AlignmentSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -98,7 +98,7 @@ class AlignmentSchema {
 
 class AlignmentGeometrySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -107,11 +107,11 @@ class AlignmentGeometrySchema {
     'anyOf': [
       {
         r'$ref':
-            'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json',
+            'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json',
       },
       {
         r'$ref':
-            'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_directional.json',
+            'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_directional.json',
       },
     ],
   };
@@ -119,7 +119,7 @@ class AlignmentGeometrySchema {
 
 class BorderRadiusGeometrySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -194,7 +194,7 @@ class BorderRadiusGeometrySchema {
 
 class BorderRadiusSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -269,7 +269,7 @@ class BorderRadiusSchema {
 
 class BoxBorderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_border.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_border.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -293,7 +293,7 @@ class BoxBorderSchema {
 
 class ColorFilterSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color_filter.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color_filter.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -348,7 +348,7 @@ class ColorFilterSchema {
 
 class ColorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -360,14 +360,14 @@ class ColorSchema {
 
 class DecorationSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/decoration.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/decoration.json';
 
   static final schema = BoxDecorationSchema.schema;
 }
 
 class EdgeInsetsDirectionalSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_directional.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_directional.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -397,7 +397,7 @@ class EdgeInsetsDirectionalSchema {
 
 class EdgeInsetsSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -427,14 +427,14 @@ class EdgeInsetsSchema {
 
 class EdgeInsetsGeometrySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json';
 
   static final schema = EdgeInsetsSchema.schema;
 }
 
 class FontFeatureSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_feature.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_feature.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -451,7 +451,7 @@ class FontFeatureSchema {
 
 class FontVariationSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_variation.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_variation.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -468,7 +468,7 @@ class FontVariationSchema {
 
 class GradientSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -530,7 +530,7 @@ class GradientSchema {
 
 class GradientTransformSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -545,7 +545,7 @@ class GradientTransformSchema {
 
 class IconSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -573,7 +573,7 @@ class IconSchema {
 
 class IconDataSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -596,7 +596,7 @@ class IconDataSchema {
 
 class ImageProviderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/image_provider.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/image_provider.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -624,21 +624,21 @@ class ImageProviderSchema {
 
 class ImageProviderObjectSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/image_provider_object.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/image_provider_object.json';
 
   static final schema = ImageProviderSchema.schema;
 }
 
 class InlineSpanSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/inline_span.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/inline_span.json';
 
   static final schema = TextSpanSchema.schema;
 }
 
 class InputBorderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/input_border.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/input_border.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -662,7 +662,7 @@ class InputBorderSchema {
 
 class InteractiveInkFeatureFactorySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -677,7 +677,7 @@ class InteractiveInkFeatureFactorySchema {
 
 class LocaleSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/locale.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/locale.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -694,7 +694,7 @@ class LocaleSchema {
 
 class MaterialColorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/material_color.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/material_color.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -727,7 +727,7 @@ class MaterialColorSchema {
 
 class Matrix4Schema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/matrix4.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/matrix4.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -740,7 +740,7 @@ class Matrix4Schema {
 
 class MouseCursorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -802,14 +802,14 @@ class MouseCursorSchema {
 
 class NoDefaultCupertinoThemeDataSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/no_default_cupertino_theme_data.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/no_default_cupertino_theme_data.json';
 
   static final schema = CupertinoThemeDataSchema.schema;
 }
 
 class NotchedShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/notched_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/notched_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -824,7 +824,7 @@ class NotchedShapeSchema {
 
 class OffsetSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/offset.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/offset.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -841,7 +841,7 @@ class OffsetSchema {
 
 class OrdinalSortKeySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/ordinal_sort_key.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/ordinal_sort_key.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -858,7 +858,7 @@ class OrdinalSortKeySchema {
 
 class OutlinedBorderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/outlined_border.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/outlined_border.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -880,7 +880,7 @@ class OutlinedBorderSchema {
 
 class PageTransitionsBuilderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_builder.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_builder.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -900,7 +900,7 @@ class PageTransitionsBuilderSchema {
 
 class PageTransitionsThemeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_theme.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_theme.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -915,7 +915,7 @@ class PageTransitionsThemeSchema {
 
 class RadiusSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -965,7 +965,7 @@ class RadiusSchema {
 
 class RangeSliderThumbShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/range_slider_thumb_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/range_slider_thumb_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -989,7 +989,7 @@ class RangeSliderThumbShapeSchema {
 
 class RangeSliderTickMarkShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/range_slider_tick_mark_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/range_slider_tick_mark_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1008,7 +1008,7 @@ class RangeSliderTickMarkShapeSchema {
 
 class RangeSliderTrackShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/range_slider_track_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/range_slider_track_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1021,7 +1021,7 @@ class RangeSliderTrackShapeSchema {
 
 class RangeSliderValueIndicatorShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/range_slider_value_indicator_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/range_slider_value_indicator_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1036,7 +1036,7 @@ class RangeSliderValueIndicatorShapeSchema {
 
 class RectSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/rect.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/rect.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1159,7 +1159,7 @@ class RectSchema {
 
 class ScrollBehaviorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_behavior.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_behavior.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1172,7 +1172,7 @@ class ScrollBehaviorSchema {
 
 class ScrollPhysicsSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1199,7 +1199,7 @@ class ScrollPhysicsSchema {
 
 class SemanticsTagSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/semantics_tag.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/semantics_tag.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1213,7 +1213,7 @@ class SemanticsTagSchema {
 
 class ShapeBorderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/shape_border.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/shape_border.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1233,7 +1233,7 @@ class ShapeBorderSchema {
 
 class SizeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/size.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/size.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1250,7 +1250,7 @@ class SizeSchema {
 
 class SliderTrackShapeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/slider_track_shape.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/slider_track_shape.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1269,7 +1269,7 @@ class SliderTrackShapeSchema {
 
 class SystemUiOverlayStyleSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/system_ui_overlay_style.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/system_ui_overlay_style.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1302,7 +1302,7 @@ class SystemUiOverlayStyleSchema {
 
 class TableColumnWidthSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/table_column_width.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/table_column_width.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1325,7 +1325,7 @@ class TableColumnWidthSchema {
 
 class TextButtonThemeDataSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_button_theme_data.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_button_theme_data.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1340,14 +1340,14 @@ class TextButtonThemeDataSchema {
 
 class WidgetSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget.json';
 
   static final schema = IconSchema.schema;
 }
 
 class WidgetStateColorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_color.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_color.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1375,7 +1375,7 @@ class WidgetStateColorSchema {
 
 class WidgetStatePropertyBoolSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_bool.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_bool.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1397,7 +1397,7 @@ class WidgetStatePropertyBoolSchema {
 
 class WidgetStatePropertyBorderSideSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_border_side.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_border_side.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1420,7 +1420,7 @@ class WidgetStatePropertyBorderSideSchema {
 
 class WidgetStatePropertyColorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1443,7 +1443,7 @@ class WidgetStatePropertyColorSchema {
 
 class WidgetStatePropertyDoubleSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_double.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_double.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1466,7 +1466,7 @@ class WidgetStatePropertyDoubleSchema {
 
 class WidgetStatePropertyEdgeInsetsGeometrySchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_edge_insets_geometry.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_edge_insets_geometry.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1503,7 +1503,7 @@ class WidgetStatePropertyEdgeInsetsGeometrySchema {
 
 class WidgetStatePropertyIconSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_icon.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_icon.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1526,7 +1526,7 @@ class WidgetStatePropertyIconSchema {
 
 class WidgetStatePropertyIconThemeDataSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_icon_theme_data.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_icon_theme_data.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1549,7 +1549,7 @@ class WidgetStatePropertyIconThemeDataSchema {
 
 class WidgetStatePropertyMouseCursorSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1572,7 +1572,7 @@ class WidgetStatePropertyMouseCursorSchema {
 
 class WidgetStatePropertyOutlinedBorderSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_outlined_border.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_outlined_border.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1595,7 +1595,7 @@ class WidgetStatePropertyOutlinedBorderSchema {
 
 class WidgetStatePropertySizeSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_size.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_size.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1618,7 +1618,7 @@ class WidgetStatePropertySizeSchema {
 
 class WidgetStatePropertyTextStyleSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json';
 
   static final schema = {
     r'$schema': 'http://json-schema.org/draft-07/schema#',
@@ -1641,7 +1641,7 @@ class WidgetStatePropertyTextStyleSchema {
 
 class WidgetStatePropertyWidgetSchema {
   static const id =
-      'https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_widget.json';
+      'https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_widget.json';
 
   static final schema = WidgetStatePropertyIconSchema.schema;
 }
