@@ -1145,7 +1145,9 @@ abstract class _ThemeDecoderFunctions {
       result = IconData(
         JsonClass.maybeParseInt(value['codePoint'])!,
         fontFamily: value['fontFamily'],
-        fontFamilyFallback: value['fontFamilyFallback'],
+        fontFamilyFallback: value['fontFamilyFallback'] is List<String>
+            ? value['fontFamilyFallback']
+            : (value['fontFamilyFallback'] as List?)?.cast<String>(),
         fontPackage: value['fontPackage'],
         matchTextDirection: JsonClass.parseBool(value['matchTextDirection']),
       );

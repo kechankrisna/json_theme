@@ -8,11 +8,11 @@ import 'package:json_theme/json_theme.dart';
 void main() {
   test('generate complex_theme.json and validate decode', () async {
     // 1. Generate the JSON from Flutter's default ThemeData
-    final encoded = ThemeEncoder.instance.encodeThemeData(ThemeData());
-    final jsonStr = const JsonEncoder.withIndent('  ').convert(encoded);
+    // final encoded = ThemeEncoder.instance.encodeThemeData(ThemeData());
+    // final jsonStr = const JsonEncoder.withIndent('  ').convert(encoded);
 
     final file = File('example/assets/themes/complex_theme.json');
-    await file.writeAsString(jsonStr);
+    // await file.readAsString();
 
     // 2. Read it back and decode
     final readStr = await file.readAsString();

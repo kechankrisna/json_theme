@@ -9,7 +9,7 @@ part of 'theme_decoder.dart';
 // Dart SDK: 3.11.4 (stable) (Tue Mar 24 01:02:20 2026 -0700) on "macos_arm64"
 // Flutter SDK:
 //   Flutter 3.41.6 • channel stable • https://github.com/flutter/flutter.git
-//   Framework • revision db50e20168 (5 weeks ago) • 2026-03-25 16:21:00 -0700
+//   Framework • revision db50e20168 (6 weeks ago) • 2026-03-25 16:21:00 -0700
 //   Engine • hash 5cdd32777948fa7a648fac915f8da7120ac7e97a (revision 425cfb54d0) (1 months ago) • 2026-03-25 20:14:42.000Z
 //   Tools • Dart 3.11.4 • DevTools 2.54.2
 
@@ -5859,7 +5859,9 @@ class ThemeDecoder extends _ThemeDecoder {
     return StrutStyle(
       debugLabel: value['debugLabel'],
       fontFamily: value['fontFamily'],
-      fontFamilyFallback: value['fontFamilyFallback'],
+      fontFamilyFallback: value['fontFamilyFallback'] is List<String>
+          ? value['fontFamilyFallback']
+          : (value['fontFamilyFallback'] as List?)?.cast<String>(),
       fontSize: JsonClass.maybeParseDouble(value['fontSize']),
       fontStyle: ThemeDecoder.instance.decodeFontStyle(
         value['fontStyle'],
@@ -6903,7 +6905,9 @@ class ThemeDecoder extends _ThemeDecoder {
         value['decorationThickness'],
       ),
       fontFamily: value['fontFamily'],
-      fontFamilyFallback: value['fontFamilyFallback'],
+      fontFamilyFallback: value['fontFamilyFallback'] is List<String>
+          ? value['fontFamilyFallback']
+          : (value['fontFamilyFallback'] as List?)?.cast<String>(),
       fontFeatures: ThemeDecoder.instance._decodeDynamicList(
         value['fontFeatures'],
         (e) => ThemeDecoder.instance.decodeFontFeature(e, validate: false)!,
@@ -7217,7 +7221,9 @@ class ThemeDecoder extends _ThemeDecoder {
         validate: false,
       ),
       fontFamily: value['fontFamily'],
-      fontFamilyFallback: value['fontFamilyFallback'],
+      fontFamilyFallback: value['fontFamilyFallback'] is List<String>
+          ? value['fontFamilyFallback']
+          : (value['fontFamilyFallback'] as List?)?.cast<String>(),
       highlightColor: ThemeDecoder.instance.decodeColor(
         value['highlightColor'],
         validate: false,
